@@ -1,0 +1,11 @@
+{
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "cmake.cmakePath": "${env:DevEnvDir}CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe",
+    "cmake.ctestPath": "${env:DevEnvDir}CommonExtensions/Microsoft/CMake/CMake/bin/ctest.exe",
+    "cmake.generator": "Ninja",
+    "cmake.configureSettings": {
+        "CMAKE_CXX_COMPILER": "${env:VCToolsInstallDir}bin/Host${env:VSCMD_ARG_HOST_ARCH}/${env:VSCMD_ARG_TGT_ARCH}/cl.exe",
+        "CMAKE_MAKE_PROGRAM": "${env:DevEnvDir}CommonExtensions/Microsoft/CMake/Ninja/ninja.exe",
+        "Python_ROOT_DIR": "${env:HOMEPATH}/miniconda3"
+    }
+}
