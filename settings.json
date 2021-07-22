@@ -8,5 +8,5 @@
         "CMAKE_MAKE_PROGRAM": "${env:DevEnvDir}CommonExtensions/Microsoft/CMake/Ninja/ninja.exe",
         "Python_ROOT_DIR": "${env:HOMEPATH}/miniconda3"
     },
-    "cmake.buildDirectory": "${workspaceFolder}/build/${buildKitTargetArch}/${buildType}"
+    "cmake.buildDirectory": "${workspaceFolder}/build/${buildType}"
 }
